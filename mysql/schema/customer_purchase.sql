@@ -1,5 +1,5 @@
 
-CREATE TABLE IF NOT EXISTS `table_name` (
+CREATE TABLE IF NOT EXISTS `customer_purchase` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `total_price` DECIMAL(10,2),
   `purchase_date` DATETIME DEFAULT NOW(),

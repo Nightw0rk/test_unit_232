@@ -11,7 +11,7 @@ Thumbs.db
 Desktop.ini
 
 # ignore Composer downloads
-/vendor/*
+/app/vendor/*
 /mysql/data/
 
 # keep some hiddens

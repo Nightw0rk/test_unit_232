@@ -6,6 +6,6 @@ CREATE TABLE IF NOT EXISTS `customer` (
   `address` VARCHAR(200),
   `email` VARCHAR(100),
   `telephone` VARCHAR(20),
-  `registration` DATETIME default DATE_NOW(),
+  `registration` DATETIME default NOW(),
   PRIMARY KEY `pk_id`(`id`)
 ) ENGINE = InnoDB;
