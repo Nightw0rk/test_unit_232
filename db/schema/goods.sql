@@ -1,0 +1,8 @@
+
+CREATE TABLE IF NOT EXISTS `good` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(255),
+  `price` DECIMAL(10,2) DEFAULT 0,
+  `unit` INT(2),
+  PRIMARY KEY `pk_id`(`id`)
+) ENGINE = InnoDB;
